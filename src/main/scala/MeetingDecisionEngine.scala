@@ -1,4 +1,4 @@
-package com.challenges.teralytics
+package com.challenges.elastictry
 
 import java.sql.Timestamp
 import java.util.Calendar
@@ -22,7 +22,7 @@ import scala.util.Try
   * then a meeting is said to have occurred between them.
   *
   * Usage: "/usr/local/Cellar/apache-spark/2.1.0/bin/spark-submit
-  * --class "com.challenges.teralytics.MeetingDecisionEngine"
+  * --class "com.challenges.elastictry.MeetingDecisionEngine"
   * --master local[4]
   * target/scala-2.11/meetdecisionengine-v1.jar <uid1> <uid2>"
   */

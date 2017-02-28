@@ -17,7 +17,7 @@ then a meeting is said to have occurred between them.
 USAGE: 
 - Change into working directory
 - sbt assembly
-- /usr/local/Cellar/apache-spark/2.1.0/bin/spark-submit --class com.challenges.teralytics.MeetingDecisionEngine --master local[4] target/scala-2.11/meetdecisionengine-v1.jar <uid1> <uid2>
+- /usr/local/Cellar/apache-spark/2.1.0/bin/spark-submit --class com.challenges.elastictry.MeetingDecisionEngine --master local[4] target/scala-2.11/meetdecisionengine-v1.jar <uid1> <uid2>
 
 PERFORMANCE:
 - The algorithm has time complexity of O(n logn) on average, or O(n^2) in the worst-case

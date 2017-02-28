@@ -2,12 +2,14 @@ TECHNOLOGIES:
 - Scala 2.11.8
 - Spark 2.1.0
 - sbt
+
 Reasons:
 - Eye towards Scalability
 - Satisfying functional programming requirement, for free
 - Reasonable familiarity with tech stack
 
 ASSUMPTIONS:
+
 If two uids are:
   1. on the same floor,
   2. within 5 minutes of each other, 

@@ -14,6 +14,7 @@ If two uids are:
   1. on the same floor,
   2. within 5 minutes of each other, 
   3. within 3 metres of each other,
+  
 then a meeting is said to have occurred between them.
 
 USAGE: 

@@ -16,6 +16,7 @@ then a meeting is said to have occurred between them.
 
 USAGE: 
 - Change into working directory
+- Unzip the input data file into a new directory, 'data' within the home directory as: <home_dir>/data/reduced.csv
 - sbt assembly
 - /usr/local/Cellar/apache-spark/2.1.0/bin/spark-submit --class com.challenges.elastictry.MeetingDecisionEngine --master local[4] target/scala-2.11/meetdecisionengine-v1.jar <uid1> <uid2>
 

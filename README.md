@@ -1,3 +1,13 @@
+PROBLEM DESCRIPTION:
+The dataset below represents the movement traces of people in a building for one day. You will need to write a program to determine if these people could have met or seen each other.
+
+Specifically, for any given pair of uids, determine when and where they could have met each other as they moved through the building. Please state your assumptions about what would constitute a “meeting.” 
+
+Note that the coordinates can be assumed to be 1 unit = 1 meter.
+
+DATA LOCATION:
+https://drive.google.com/file/d/0B2nO3xl8Qm39ZWhlMklLZ3Nzam8/
+
 TECHNOLOGIES: 
 - Scala 2.11.8
 - Spark 2.1.0
